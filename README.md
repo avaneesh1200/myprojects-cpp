@@ -1,4 +1,4 @@
-# myprojects-C++
+# myprojects-cpp
 mp = minor project\
 sp = sub project\
 p = project\
