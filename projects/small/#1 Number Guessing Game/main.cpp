@@ -5,7 +5,7 @@
 
 
 //------------------------------------------------------
-// This project is a number guessing name mn1 - A number guessing game
+// This project is a number guessing name 1 - A number guessing game
 // no gui - terminal based
 //------------------------------------------------
 
