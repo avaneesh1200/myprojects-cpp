@@ -1,3 +1,9 @@
+<p align="center">
+  $${\color{grey}\text{© 2026 Avaneesh Shahi}}$$
+</p>
+
+
+
 # myprojects-cpp
 Projects are stored in the `\projects`
 - The projects directory therefore has 3 sub directory `\small`, `\medium` and `\main`.
