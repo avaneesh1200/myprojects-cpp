@@ -37,6 +37,8 @@
 *.exe
 *.out
 *.app
+*.asm
+*.s
 
 # Build directories
 build/
@@ -67,5 +69,7 @@ vcpkg_installed/
 Testing/
 .cache/
 
-# VSCode files
+# VS Code files
 .vscode/
+
+#
