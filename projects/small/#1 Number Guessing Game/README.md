@@ -1,5 +1,5 @@
 ### 1 - A Number Guessing Game
-See `LICENSE`  for details about reporduction, usage or creditibility.\
+See `LICENSE`  for details about reporduction, usage or attribution.\
 See `README` to know about the repository.
 
 
