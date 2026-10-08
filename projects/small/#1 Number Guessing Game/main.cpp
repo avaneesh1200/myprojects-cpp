@@ -28,7 +28,7 @@ int main() {
     int randomNumber;
     int input = 0;
     int inputCount = 0;
-    // Some compilers may need a preporcessor statement #include <string> for the dataypye declaration (std::string) while some may not
+    // Some compilers may need a preprocessor statement #include <string> for the datatypye declaration (std::string) while some may not
     std::string playAgain = "Y";
 
     std::random_device rd;
