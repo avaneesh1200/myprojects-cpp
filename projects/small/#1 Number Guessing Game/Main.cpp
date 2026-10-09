@@ -44,8 +44,14 @@ int main() {
     while (randomNumber != input) {
         //taking the input
         std::cout << "Enter your guess: ";
-        std::cin >> input ;
-        inputCount++;
+        if (!(std::cin >> input)) { 
+        std::cout << "Invalid input! Please enter a number." << '\n' << std::endl;
+        
+        std::cin.clear(); 
+        std::cin.ignore(10000, '\n'); 
+        continue; 
+    }
+    inputCount++;
 
         if (input > randomNumber) {
             std::cout << "Too high!" << '\n' << std::endl;
