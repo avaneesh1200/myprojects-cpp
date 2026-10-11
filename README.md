@@ -26,4 +26,6 @@ Visit  → [Read the Guide](projects/main/README.md)
 📄- [LICENSE](LICENSE)<br>
 🔗- [Apache official link](https://www.apache.org/licenses/LICENSE-2.0)
 
-## My Projects
+## My Projects (done)
+small/ #1 Number Guessing Game
+small/ #2 Rock, Paper, Scissors
