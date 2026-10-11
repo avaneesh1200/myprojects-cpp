@@ -1,4 +1,4 @@
-### 1 - A Number Guessing Game
+### 2 - ROCK PAPER SCISSORS GAME
 See `LICENSE`  for details about reporduction, usage or attribution.\
 See `README` to know about the repository.
 
