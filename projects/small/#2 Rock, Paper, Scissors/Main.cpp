@@ -53,68 +53,68 @@ int main() {
         std::cout << "Choose: (1) Rock, (2) Paper, (3) Scissors: " ;
         std::cin >> input;
 
-        if (output == "Rock" && input == "1" || input == "ROCK" || input == "Rock" || input == "rock" ) {
-            std::cout << '\n' << "You choose: " << input << std::endl;
+        if (output == "Rock" && (input == "1" || input == "ROCK" || input == "Rock" || input == "rock")) {
+            std::cout << '\n' << "You choose: Rock" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
             std::cout << "Draw" << '\n' << std::endl;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
         }
-        else if (output == "Paper" && input == "2" || input == "PAPER" || input == "Paper" || input == "paper") {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Paper" && (input == "2" || input == "PAPER" || input == "Paper" || input == "paper")) {
+            std::cout << "You choose: Paper " << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
             std::cout << "Draw" << '\n' << std::endl;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
         }
-        else if ( output == "Scissors" && input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors" ) {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Scissors" && (input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors")) {
+            std::cout << "You choose: Scissors " << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
             std::cout << "Draw" << '\n' << std::endl;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
         }
-        else if (output == "Scissors" && input == "1" || input == "ROCK" || input == "Rock" || input == "rock" ) {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Scissors" && (input == "1" || input == "ROCK" || input == "Rock" || input == "rock")) {
+            std::cout << "You choose: Rock" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "🎉 You win this round! " << input << " crushes " << output <<  '\n' << std::endl; 
+            std::cout << "🎉 You win this round! " << "Rock crushes " << output <<  '\n' << std::endl; 
             scoreI++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
         }
-        else if (output == "Rock" && input == "2" || input == "PAPER" || input == "Paper" || input == "paper" ) {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Rock" && (input == "2" || input == "PAPER" || input == "Paper" || input == "paper")) {
+            std::cout << "You choose: Paper" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "🎉 You win this round! " << input << " covers " << output <<  '\n' << std::endl;
+            std::cout << "🎉 You win this round! " << "Paper covers " << output <<  '\n' << std::endl;
             scoreI++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
         }
-        else if (output == "Paper" && input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors" ) {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Paper" && (input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors")) {
+            std::cout << "You choose: Scissors" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "🎉 You win this round! " << input << " cuts " << output <<  '\n' << std::endl;
+            std::cout << "🎉 You win this round! " << "Scissors cuts " << output <<  '\n' << std::endl;
             scoreI++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
         }
-        else if (output == "Paper" && input == "1" || input == "ROCK" || input == "Rock" || input == "rock") {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Paper" && (input == "1" || input == "ROCK" || input == "Rock" || input == "rock")) {
+            std::cout << "You choose: Rock" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "😞 You lose this round! " << output << " covers " << input <<  '\n' << std::endl;
+            std::cout << "😞 You lose this round! " << output <<" covers Rock" <<  '\n' << std::endl;
             scoreO++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
         }
-        else if (output == "Scissors" && input == "2" || input == "PAPER" || input == "Paper" || input == "paper") {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Scissors" && (input == "2" || input == "PAPER" || input == "Paper" || input == "paper")) {
+            std::cout << "You choose: Paper" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "😞 You lose this round! " << output << " cuts " << input <<  '\n' << std::endl;
+            std::cout << "😞 You lose this round! " << output << " cuts Paper" <<  '\n' << std::endl;
             scoreO++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
         }
-        else if (output == "Rock" && input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors") {
-            std::cout << "You choose: " << input << std::endl;
+        else if (output == "Rock" && (input == "3" || input == "SCISSORS" || input == "Scissors" || input == "scissors")) {
+            std::cout << "You choose: Scissors" << std::endl;
             std::cout << "Computer choose: " << output << '\n' << std::endl;
-            std::cout << "😞 You lose this round! " << output << " crushes " << input << '\n'<< std::endl;
+            std::cout << "😞 You lose this round! " << output << " crushes Scissors" << '\n'<< std::endl;
             scoreO++;
             std::cout << "Score - You: " << scoreI << " | Computer: " << scoreO << std::endl;
             
