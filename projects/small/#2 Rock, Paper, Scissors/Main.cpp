@@ -5,7 +5,7 @@
 
 
 //------------------------------------------------------
-// This project is a number guessing name __1 - Rock, paper, scissors__
+// This project is a number guessing name
 // no gui - terminal based
 //------------------------------------------------
 
