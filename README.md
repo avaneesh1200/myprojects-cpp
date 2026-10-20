@@ -5,16 +5,16 @@
 
 
 # myprojects-cpp
-Projects are stored in the `\projects`
-- The projects directory therefore has 3 sub directory `\easy`, `\medium` and `\main`.
+Projects are stored in the `projects/`
+- The projects directory therefore has 3 sub directory `easy/`, `medium/` and `main/`.
 <br><br>
-1. `\easy` → These are projects which have very less or zero gui, are considered as a good starting points for begginers and are comparitively easy to make for begginers.
+1. `easy/` → These are projects which have very less or zero gui, are considered as a good starting points for begginers and are comparitively easy to make for begginers.
 <br> <br>
 
-2. `\medium` → These are projects which might have gui or terminal-based proper applications and are considered harder to build, and takes more debugging and problem solving skills which grows with experience
+2. `medium/` → These are projects which might have gui or terminal-based proper applications and are considered harder to build, and takes more debugging and problem solving skills which grows with experience
 <br> <br>
 
-3. `\main` → These are my main projects and have gui, and are very complex to build and debug and might have 3 - 4 softwares wrapped into one.
+3. `main/` → These are my main projects and have gui, and are very complex to build and debug and might have 3 - 4 softwares wrapped into one.
 
 ⚠️ - I don't store my main project source code here
 <br>
@@ -28,5 +28,5 @@ Visit  → [Read the Guide](projects/main/README.md)
 
 ## My Projects (done)
 ```
-small/ #1 Number Guessing Game 
-small/ #2 Rock, Paper, Scissors
+easy/ #1 Number Guessing Game 
+easy/ #2 Rock, Paper, Scissors
