@@ -1,0 +1,14 @@
+==============================
+ROCK, PAPER, SCISSORS GAME
+==============================
+Score - You: 0 | CPU: 0
+
+Choose: (1) Rock, (2) Paper, (3) Scissors: 1
+
+You chose: Rock
+Computer chose: Scissors
+
+🎉 You win this round! Rock crushes Scissors.
+
+Current Score - You: 1 | CPU: 0
+Play another round? (y/n): 
